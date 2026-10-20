@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hitesh Kumar | Software Engineer</title>
+  <meta name="description" content="Hitesh Kumar — Software Engineer 2 at MathWorks. C++ platform services, distributed systems, and GenAI developer tooling." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <header class="nav">
+    <a class="logo" href="#top">Hitesh Kumar<span>.</span></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <p class="status"><span class="dot"></span>Open to senior software engineering conversations</p>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="name">Hitesh Kumar</p>
+          <p class="eyebrow">Software Engineer 2 · MathWorks</p>
+          <h1>I engineer platform services that stay <em>fast under load.</em></h1>
+          <p class="lede">I’m Hitesh Kumar, a C++ and systems engineer building secure connection &amp; secrets infrastructure for MATLAB, and AI agents that make developers faster.</p>
+          <div class="cta">
+            <a class="btn primary" href="#work">Explore my work <span>↓</span></a>
+            <a class="btn ghost" href="Hitesh-Kumar-Resume.pdf" download>Download resume <span>↓</span></a>
+            <a class="link" href="mailto:hkhitesh7@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="reach">
+            <a href="mailto:hkhitesh7@gmail.com">hkhitesh7@gmail.com</a>
+          </p>
+        </div>
+
+        <figure class="orbit" aria-label="Hitesh Kumar · core focus areas">
+          <div class="ring ring-outer"></div>
+          <div class="ring ring-inner">
+            <img src="hitesh_image.jpeg" alt="Portrait of Hitesh Kumar" />
+          </div>
+          <figcaption class="core-sub">Hitesh Kumar · India</figcaption>
+          <a class="node n1" href="#work"><b>C++</b><small>core</small></a>
+          <a class="node n2" href="#experience"><b>MCP</b><small>agents</small></a>
+          <a class="node n3" href="#work"><b>SYS</b><small>design</small></a>
+          <a class="node n4" href="#achievements"><b>ML</b><small>research</small></a>
+        </figure>
+      </div>
+
+      <div class="ticker">
+        <span>C++</span><span>JAVA</span><span>PYTHON</span><span>SPRING BOOT</span><span>MCP · RAG</span><span>DISTRIBUTED SYSTEMS</span>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Selected engineering work</p>
+        <p class="muted">Production platform work and personal builds shaped by latency budgets, isolation, and measurable results.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-top"><span>01</span><span>MathWorks · Platform</span></div>
+          <h2>AuthNZ &amp; Connection Manager</h2>
+          <p>Cloud-provider connection and secrets infrastructure behind MATLAB’s authenticated service integrations.</p>
+          <ul>
+            <li>Connection Interface &amp; Manager methods built on the Factory pattern</li>
+            <li>Mock Connection Provider as a CppMicroServices bundle for isolated testing</li>
+            <li>Google Benchmark suite over 14 APIs — fixed a 110% <code>listSecrets</code> regression</li>
+          </ul>
+          <div class="card-foot"><p>C++ · MATLAB · CppMicroServices · Google Benchmark · IPC</p></div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><span>02</span><span>MathWorks · GenAI</span></div>
+          <h2>AI Developer Tooling</h2>
+          <p>Agents that automate everyday engineering workflows by orchestrating LLMs over internal tooling.</p>
+          <ul>
+            <li>Code review, test triage &amp; changelist analysis agents via MCP</li>
+            <li>RAG pipeline over internal code and docs with vector embeddings</li>
+            <li>Multi-agent architecture with parallel fan-out subagents</li>
+          </ul>
+          <div class="card-foot"><p>Python · LLMs · RAG · MCP · Docker</p></div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><span>03</span><span>Java · Distributed</span></div>
+          <h2>Scalable URL Shortener</h2>
+          <p>A horizontally scalable URL-shortening service designed for high throughput and fault tolerance.</p>
+          <ul>
+            <li>Sub-100 ms p99 latency at 10K+ req/s</li>
+            <li>Consistent-hashing sharding, Redis caching &amp; rate limiting</li>
+            <li>Kafka async analytics; AWS ECS + ELB at 99.9% availability</li>
+          </ul>
+          <div class="card-foot">
+            <p>Java · Spring Boot · Redis · PostgreSQL · Kafka · Docker · AWS</p>
+            <a href="https://github.com/hkhitesh7/URL-Shortening" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><span>04</span><span>ML · Research</span></div>
+          <h2>Video Temporal Grounding</h2>
+          <p>Moment retrieval and highlight detection in videos from natural-language queries using a Cross-Attention Transformer.</p>
+          <ul>
+            <li>+5% mAP / mIoU on query-based video-moment detection</li>
+            <li>CLIP ViT-B/32 pseudo-supervision for scalable pre-training</li>
+            <li>Best Paper Award · published by Springer Nature</li>
+          </ul>
+          <div class="card-foot">
+            <p>Python · PyTorch · CLIP · Transformers</p>
+            <a href="https://github.com/hkhitesh7/VTG-using-CAT-Transformer" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><span>05</span><span>Java · Backend</span></div>
+          <h2>Online Job Portal</h2>
+          <p>A lightweight job portal where employers post openings, candidates apply, and admins manage the hiring flow.</p>
+          <ul>
+            <li>Admin, employer &amp; employee modules</li>
+            <li>JWT authentication with role-specific workflows</li>
+            <li>Swagger-documented REST APIs over PostgreSQL</li>
+          </ul>
+          <div class="card-foot">
+            <p>Java · Spring Boot · JWT · Hibernate · PostgreSQL · Swagger</p>
+            <a href="https://github.com/hkhitesh7/Online-Job-Portal" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top"><span>06</span><span>Python · Full Stack</span></div>
+          <h2>The Book Spot</h2>
+          <p>An online e-book store with secure checkout, accessibility features and personalised recommendations.</p>
+          <ul>
+            <li>Payment gateway &amp; face authentication</li>
+            <li>Text-to-speech reading mode</li>
+            <li>Purchase-history recommendation module</li>
+          </ul>
+          <div class="card-foot">
+            <p>Python · Django · JavaScript · SQLite</p>
+            <a href="https://github.com/hkhitesh7/The-Book-Spot" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div>
+        <p class="eyebrow">About me</p>
+        <h2 class="display">Systems discipline. <em>Research curiosity.</em></h2>
+      </div>
+      <div class="about-body">
+        <p>I like problems where correctness and performance both matter. At MathWorks I build the C++ services that let MATLAB securely connect to cloud providers — and I measure them, because a regression nobody benchmarks is a regression users find.</p>
+        <p>My M.Tech research in multimodal transformers keeps me close to modern AI, which today shows up as agents and RAG pipelines that take toil off engineers’ plates.</p>
+        <div class="stats">
+          <div><strong>3.5+</strong><span>Years in industry</span></div>
+          <div><strong>2×</strong><span>Best Paper Awards</span></div>
+          <div><strong>AIR 2113</strong><span>GATE CS 2023</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Recognition</p>
+        <h2 class="display">Milestones along <em>the way.</em></h2>
+      </div>
+      <div class="awards">
+        <article class="award reveal">
+          <span class="badge">01</span>
+          <div>
+            <h3>Best Paper Award</h3>
+            <p><a href="https://link.springer.com/chapter/10.1007/978-981-97-6318-4_8" target="_blank" rel="noopener">Connecting Words to Motion ↗</a> · DoSCI 2024, Springer Nature</p>
+            <small>Cross-attention temporal grounding for video highlights &amp; moments</small>
+          </div>
+        </article>
+        <article class="award reveal">
+          <span class="badge">02</span>
+          <div>
+            <h3>Best Paper Award</h3>
+            <p><a href="https://ieeexplore.ieee.org/document/10627783" target="_blank" rel="noopener">Advancing Video Summarization ↗</a> · IEEE IConSCEPT 2024, NIT Puducherry</p>
+            <small>Language-guided attention transformer · +3% F1/BLEU on TVSum &amp; SumMe</small>
+          </div>
+        </article>
+        <article class="award reveal">
+          <span class="badge">GATE</span>
+          <div>
+            <h3>AIR 2113</h3>
+            <p>GATE Computer Science 2023</p>
+            <small>Among ~100,000 candidates</small>
+          </div>
+        </article>
+        <article class="award reveal">
+          <span class="badge">DSA</span>
+          <div>
+            <h3>600+ problems solved</h3>
+            <p>LeetCode &amp; GeeksforGeeks</p>
+            <small>Data structures &amp; algorithms practice</small>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- TOOLKIT -->
+    <section class="section">
+      <p class="eyebrow">Technical toolkit</p>
+      <div class="toolkit">
+        <div class="tool reveal"><span>01</span><h3>Languages</h3><p>C, C++, Java, Python, SQL, JavaScript, MATLAB</p></div>
+        <div class="tool reveal"><span>02</span><h3>Systems</h3><p>OOD, Design Patterns, System Design, Distributed Systems, Multithreading, IPC, REST APIs</p></div>
+        <div class="tool reveal"><span>03</span><h3>GenAI</h3><p>LLMs, RAG, AI Agents, Multi-Agent Systems, MCP, Vector Embeddings, Prompt Engineering</p></div>
+        <div class="tool reveal"><span>04</span><h3>Frameworks &amp; Cloud</h3><p>Spring Boot, Node.js, Django, TensorFlow, AWS, Docker, Kafka, Redis, PostgreSQL</p></div>
+        <div class="tool reveal"><span>05</span><h3>Tooling</h3><p>Perforce, Git, CI/CD, Google Benchmark, CppMicroServices, Grafana, Power BI</p></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <p class="eyebrow">Experience &amp; education</p>
+      <div class="timeline">
+        <article class="reveal">
+          <time>May 2024 — Present</time>
+          <div>
+            <h3>Software Engineer 2 · MathWorks, India</h3>
+            <p>Platform engineering across authentication, interoperability, multimedia and GenAI developer tooling.</p>
+            <ul>
+              <li>AuthNZ &amp; Connection Manager — connection interfaces, mock providers, performance benchmarking</li>
+              <li>MATLAB Interface to C++ — <code>setInputArgument</code>, <code>setProperty</code>, <code>setOutput</code>, <code>excludeMethod</code> APIs</li>
+              <li>GenAI tooling — MCP-based agents and RAG over internal code &amp; docs</li>
+              <li>Multimedia — class-based test suites for image &amp; VideoReader APIs at 98% coverage</li>
+            </ul>
+          </div>
+        </article>
+        <article class="reveal">
+          <time>Jul 2023 — Apr 2024</time>
+          <div>
+            <h3>Co-op Intern · AMD, Bengaluru</h3>
+            <p>Built the end-to-end Debug Tracker for regression &amp; simulation across multiple projects.</p>
+            <ul>
+              <li>Automated dashboard &amp; owner notifications — 98% less manual effort</li>
+              <li>Signature-request response time down to 900 ms via payload caps &amp; optimised post-processing</li>
+            </ul>
+          </div>
+        </article>
+        <article class="reveal">
+          <time>Oct 2021 — Aug 2022</time>
+          <div>
+            <h3>Software Engineer · MAQ Software, Noida</h3>
+            <p>End-to-end Power BI reporting for Microsoft as a client; report load time improved to 2 seconds by tuning fact–dimension relationships.</p>
+          </div>
+        </article>
+        <article class="reveal">
+          <time>2022 — 2024</time>
+          <div>
+            <h3>M.Tech, Computer Engineering · NIT Kurukshetra</h3>
+            <p>CGPA 9.26 / 10 — research in multimodal deep learning and video understanding.</p>
+          </div>
+        </article>
+        <article class="reveal">
+          <time>2018 — 2022</time>
+          <div>
+            <h3>B.Tech, Computer Science · GL Bajaj (AKTU)</h3>
+            <p>CGPA 8.96 / 10.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <p class="eyebrow">Let’s build something reliable</p>
+      <h2 class="display big">Have a hard problem<br />worth solving? <em>Let’s talk.</em></h2>
+      <div class="contact-links">
+        <a class="mail" href="mailto:hkhitesh7@gmail.com">hkhitesh7@gmail.com ↗</a>      </div>
+      <footer>
+        <span>© <span id="year">2026</span> Hitesh Kumar</span>
+        <span class="social">
+          <a href="https://github.com/hkhitesh7" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/hkhitesh7/" target="_blank" rel="noopener">LinkedIn</a>
+        </span>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
